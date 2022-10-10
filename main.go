@@ -2,13 +2,19 @@ package main
 
 import (
 	"fmt"
+
+	"example.com/hello/condition"
 )
 
 func main() {
+
+	// condition.LearnCondition()
+	// condition.SwitchCondition()
+	condition.ForLoop()
 	// fmt.Println("Hello World!")
 	// x, y, z := 5, 10, 15
 	// fmt.Println(x, y, z)
-	anku()
+	// anku()
 	// xyz.Test()
 	// var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
 	// fmt.Println(cars)
