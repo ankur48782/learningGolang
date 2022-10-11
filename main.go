@@ -10,6 +10,7 @@ func main() {
 
 	// condition.LearnCondition()
 	// condition.SwitchCondition()
+	// condition.ForLoop()
 	condition.ForLoop()
 	// fmt.Println("Hello World!")
 	// x, y, z := 5, 10, 15

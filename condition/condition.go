@@ -1,8 +1,10 @@
 package condition
 
+// package rand
+
 import (
 	"fmt"
-	"time"
+	// "math/rand"
 )
 
 func LearnCondition() {
@@ -75,9 +77,10 @@ func ForLoop() {
 	// i:=0; - Initialize the loop counter (i), and set the start value to 0
 	// i < 5; - Continue the loop as long as i is less than 5
 	// i++ - Increase the loop counter value by 1 for each iteration
-	t := time.Second
+	// t := time.Second
 
-	for i := 0; i <= 10; i-- {
+	for i := 0; i <= 10; i++ {
+		fmt.Println(i)
 		// fmt.Println("before Sleep()")
 		if i == -10000 {
 			break
@@ -85,5 +88,5 @@ func ForLoop() {
 			fmt.Println(i)
 		}
 	}
-	fmt.Println(t)
+	// fmt.Println(t)
 }
