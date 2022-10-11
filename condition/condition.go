@@ -77,7 +77,7 @@ func ForLoop() {
 	// i++ - Increase the loop counter value by 1 for each iteration
 	t := time.Second
 
-	for i := 0; i <= 10; i-- {
+	for i := 0; i <= 10; i++ {
 		// fmt.Println("before Sleep()")
 		if i == -10000 {
 			break
